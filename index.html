@@ -1,1 +1,44 @@
 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina inicial</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .menu{
+            list-style: none;/*Linpar os marcadores padrao da lista UL ou OL' vai tirar as bolinhas da lista*/
+            display: flex;/*Permite que os elementos sejam organizados de maneira flexivel*/
+            justify-content: space-around;/*Distribui os items uniformemente deixando um espaço entre eles*/
+            align-items: center;/*Centraliza verticalmente os elementos*/
+            background-color: rgb(25, 30, 83);/*cor de fundo*/
+            padding: 10px 0;/*Adiciona 10 pixels de espaçamento em cima e em baixo sem mudar as laterais*/
+            position: fixed;/*Fixa o elemtento na tela para não rolar com a pagina*/
+            top: 0;/*Posiciona o elemento na parte superior da tela*/
+            width: 100%;/*Faz com que o elemento oculpe 100% da largura da tela*/
+            z-index: 1000;/*Garrante que os elementos fiquem  acima dos outro itens da tela*/
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li>Inicio</li>
+        <li>Sobre</li>
+        <li>Perfil</li>
+        <li>Contato</li>
+        <li><a href="login.html">Conta</a></li>
+     </ul>
+</nav>
+</body>
+</html>
+
